@@ -17,16 +17,20 @@
         <label class="label">
           Surname:
           <input
-            type="text" name="surname" 
+            type="text" 
+            name="surname" 
             autocomplete="off"
           >
         </label>
         <label class="label">
           Name:
-          <input type="text" name="name" 
+          <input 
+            type="text" 
+            name="name" 
             autocomplete="off"
           >
         </label>
+
         <label class="label">
           How old are You?
           <input 
@@ -37,63 +41,82 @@
             value="12"
           >
         </label>
+
         <label class="label">
           Full date of birth:
           <input type="date" name="date of birth">
         </label>
+
         <label class="label">
-        I accept the term of the agreement
-          <input type="checkbox" name="terms" 
+          I accept the term of the agreement
+          <input 
+            type="checkbox" 
+            name="terms" 
             id="box" required
           > 
         </label>
       </fieldset>
+
       <fieldset class="field">
         <legend>Registration</legend>
         <label class="label"> 
-        E-mail:
-          <input type="email" name="mail" 
+          E-mail:
+          <input 
+            type="email" 
+            name="mail" 
             required placeholder="email@example.com"
           >
         </label>
+
         <label class="label">
         Password:
           <input 
-            type="password" name="pasword" 
-            pattern="\w+" required 
-            minlength="8" maxlength="16"
+            type="password" 
+            name="pasword" 
+            pattern="\w+" 
+            required 
+            minlength="8" 
+            maxlength="16"
           >
         </label>
       </fieldset>
+
       <fieldset class="field">
-        <legend>An interesting fact about you.
-        </legend>
-          
-        <label class="label">Do you love cats?
-          <input type="radio" name="cats" 
+        <legend>An interesting fact about you.</legend>
+          Do you love cats?
+        <label class="label2">
+          <input 
+            type="radio" 
+            name="cats" 
             value="Yes"
           >
-        Yes
-            
+          Yes
+        </label>
+        <label class="label2">
           <input 
-            type="radio" name="cats" 
+            type="radio" 
+            name="cats" 
             value="No"
           >
           No
         </label>
+      
         <label class="label">
-        What is your favorite color?
+          What is your favorite color?
           <input 
-            type="color" name="color" 
+            type="color" 
+            name="color" 
             id="color"
           >
         </label>
+
         <label class="label">
-        What time do you go to bed?
+          What time do you go to bed?
           <input type="time" name="time">
         </label>  
+
         <label class="label">
-        What are your favotite brands of cars?
+          What are your favotite brands of cars?
           <select name="cars" multiple>
             <option value="Audi">Audi</option>
             <option value="BMW">BMW</option>
@@ -102,21 +125,23 @@
             <option value="Bentley">Bentley</option>
             <option value="Merc">Merc</option>
           </select>
-        </label>     
+        </label> 
+
         <label class="label">
-        How do you rate our work?
+          How do you rate our work?
           <input type="range" name="rate">
         </label>
-      
       </fieldset>
+
       <fieldset class="field">
         <legend>Additional info:</legend>
         <label class="label">
-              Comments:
+          Comments:
           <textarea name="feedback"></textarea>
-        </label>     
+        </label>  
+
         <label class="label">
-              Would you recommend us?
+          Would you recommend us?
           <select name="feedback">
             <option value="yes">Yes</option>
             <option value="no">No</option>
